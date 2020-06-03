@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang ="en">
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/Gallery.css" rel="stylesheet"/>
+	<link href="css/all.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
+</head>
+<body>
+	<div class="container bg-danger">
+		<div class="row m-6">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<h1 class="text-warning m-4"> Car Empire</h1>
+			</div>
+			<div class="col-md-8 col-sm-12">
+				<ul class="nav nav-pills bg-dark justify-content-center m-4" data-toggle="collapse" id="topnav">
+					<li class="nav-item"><a class= "nav-link" href="Home.html">HOME</a></li>
+					<li class="nav-item"><a class= "nav-link active" href="Gallery.html">GALLERY</a></li>
+					<li class="nav-item"><a class= "nav-link" href="Service.html">SERVICE</a></li>
+					<li class="nav-item"><a class= "nav-link disabled" href="Team.html">TEAM</a></li>
+					<li class="nav-item"><a class= "nav-link" href="Contact Us.html">CONTACT US</a></li>
+					<li class="nav-item"><a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-4">
+		<div class="row bg-dark">
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A1.jpg" class="img-fluid img-thumbnail" id="pi"></a>	
+
+				<!-- The Modal -->
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header bg-warning">
+								<h3 class="modal-title "> Yaris Chevrelot</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> LE 2020
+								<h5>Price</h5> $3,200
+								<h5> Color</h5> Ebony
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">		
+				<a href="#"><img src="Image/A2.jpg" class="img-fluid img-thumbnail" id="si"></a>
+
+				<div class="modal fade" id="myModal2">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> BMW</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Xz 2018
+								<h5>Price</h5> $4,500
+								<h5> Color</h5> Silver
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A3.jpg" class="img-fluid img-thumbnail" id="pj"></a>
+				<div class="modal fade" id="myModal3">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Audi</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> 33 MPG
+								<h5>Price</h5> $3,700
+								<h5> Color</h5> White
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A4.jpg" class="img-fluid img-thumbnail" id="ri"></a>
+				<div class="modal fade" id="myModal4">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> Lamborghini</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Se2019 3052
+								<h5>Price</h5> $5,000
+								<h5> Color</h5> Silver
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-dark">
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A5.jpg" class="img-fluid img-thumbnail" id="ti"></a>
+				<div class="modal fade" id="myModal5">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2021 BMW</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Alpina B7
+								<h5>Price</h5> $143,200
+								<h5> Color</h5> Silver
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A6.jpg" class="img-fluid img-thumbnail" id="ui"></a>
+				<div class="modal fade" id="myModal6">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2020 Acura</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> NSX
+								<h5>Price</h5> $157,500
+								<h5> Color</h5> Black
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A7.jpg" class="img-fluid img-thumbnail" id="vi"></a>
+				<div class="modal fade" id="myModal7">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2020 Aston Martin</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> DB11
+								<h5>Price</h5> $198,995
+								<h5> Color</h5> Silver
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A8.jpg" class="img-fluid img-thumbnail" id="wi"></a>
+				<div class="modal fade" id="myModal8">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2020 Acura</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> MDX
+								<h5>Price</h5> $44,500
+								<h5> Color</h5> Black
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-dark">
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A9.jpg" class="img-fluid img-thumbnail" id="xi"></a>
+				<div class="modal fade" id="myModal9">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2018 Cadilac</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5>FST
+								<h5>Price</h5> $46,500
+								<h5> Color</h5> Ebony
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A10.jpg" class="img-fluid img-thumbnail" id="yi"></a>
+				<div class="modal fade" id="myModal10">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> Mercedes-Benz</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> E-Class MPG
+								<h5>Price</h5> $33, 600
+								<h5> Color</h5> Black
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A11.jpg" class="img-fluid img-thumbnail" id="zi"></a>
+				<div class="modal fade" id="myModal11">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2019 Cadillac</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> XT4
+								<h5>Price</h5> $35,695
+								<h5> Color</h5> White
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A12.jpg" class="img-fluid img-thumbnail" id="ai"></a>
+				<div class="modal fade" id="myModal12">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Maserati</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> XTE
+								<h5>Price</h5> $43,000
+								<h5> Color</h5> Black
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-dark">
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A13.jpg" class="img-fluid img-thumbnail" id="bi"></a>
+				<div class="modal fade" id="myModal13">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Hyundia Accent</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Kona EV
+								<h5>Price</h5> $19,950
+								<h5> Color</h5> Silver
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A14.jpg" class="img-fluid img-thumbnail" id="ci"></a>
+				<div class="modal fade" id="myModal14">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Hyundai</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Elantra
+								<h5>Price</h5> $19,150
+								<h5> Color</h5> Black
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A15.jpg" class="img-fluid img-thumbnail" id="di"></a>
+				<div class="modal fade" id="myModal15">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title"> 2020 Hyundai</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Ioniq EV
+								<h5>Price</h5> $33.045
+								<h5> Color</h5> Ebony
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A16.jpg" class="img-fluid img-thumbnail" id="ei"></a>
+				<div class="modal fade" id="myModal16">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">INFINITI</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Q70l
+								<h5>Price</h5> $51,900
+								<h5> Color</h5> White
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-dark">
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A17.jpg" class="img-fluid img-thumbnail" id="fi"></a>
+				<div class="modal fade" id="myModal17">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">2018 INFINITI</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> QX30
+								<h5>Price</h5> $30,250
+								<h5> Color</h5> Brown
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A18.jpg" class="img-fluid img-thumbnail" id="gi"></a>
+				<div class="modal fade" id="myModal18">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Chevrolet</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Bolt EV
+								<h5>Price</h5> $36,620
+								<h5> Color</h5> Blue
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A19.jpg" class="img-fluid img-thumbnail" id="hi"></a>
+				<div class="modal fade" id="myModal19">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">2021 Chevrolet</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Camaro
+								<h5>Price</h5> $25,500
+								<h5> Color</h5> White
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<a href="#"><img src="Image/A20.jpg" class="img-fluid img-thumbnail" id="ij"></a>
+				<div class="modal fade" id="myModal20">
+					<div class="modal-dialog modal-dialog-centered modal-sm">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h3 class="modal-title">Toyota</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body bg-info">
+								<h5>Model</h5> Avalon
+								<h5>Price</h5> $35,875
+								<h5> Color</h5> Ash
+							</div>
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<a href="Service.html"><button type="button" class="btn btn-danger btn- btn-sm">Purchase Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container bg-white">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-warning text-center mt-4"> Proud Mobility Partners</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div col-md-2>
+				<a href="audi.com"><img src="Image/audi.gif" class="img-fluid"></a>
+			</div>
+			<div col-md-2>
+				<a href="honda.com"><img src="Image/honda.gif" class="img-fluid"></a>
+			</div>
+			<div col-md-2>
+				<a href="toyota.com"><img src="Image/toyota.gif" class="img-fluid"></a>
+			</div>
+			<div col-md-2>
+				<a href="chevrolet.com"><img src="Image/chevrolet.png" class="img-fluid"></a>
+			</div>
+			<div col-md-2>
+				<a href="bmw.com"><img src="Image/bmw.png" class="img-fluid"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h5 class="text-right text-primary">We Are Always Here For You</h5>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

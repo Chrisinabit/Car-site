@@ -1,0 +1,81 @@
+html{
+ 	background-color: white;
+ }
+ body{
+	width: 90%;
+	height: 90%;
+	margin-top:1%;
+	margin-left: 5%;
+	
+}
+.ze{
+	background-color: #669999;
+}
+.gref{
+	background-color: green;
+	width: 20rem;
+	height: 440px;
+}
+.ei{
+	font-size: 25px;
+	margin-top: -1rem;
+}
+.ef{
+	font-size: 25px;
+	margin-top: -1rem;
+}
+.el{
+	font-size: 30px;
+	margin-top: -1rem;
+}
+.de{
+	margin-top: 3rem;
+	margin-left: 2rem;
+}
+
+.nav-link{
+	color: white;
+	font-weight: bold;
+}
+
+.nav-pills{
+	overflow: hidden;
+	/*background-color: black; */
+}
+.icon{
+	display: none;
+}
+
+/* When the screen is less than 600pixels wide, hide all links except the first one("Home")*/
+	@media screen and (max-width: 600px){
+		.nav-pills  :not(:first-child):not(:last-child) {
+			display: none;
+		}
+		
+		.nav-item a.icon{
+			position: relative;
+			left: 50px;
+			display: block;
+		}
+		.gref{
+		
+		width: 16rem;
+		
+	}
+
+	@media screen and (max-width: 600px){
+		.nav-pills.responsive{
+			position: relative;
+		}
+		.nav-pills.responsive a.icon{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	.nav-pills.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+	
